@@ -1,0 +1,15 @@
+"C:\DeamonApache\amd64\prunsrv.exe" //IS//RpaManagementApp^
+ --DisplayName "Rpa Management"^
+ --Description "Rpa Management service."^
+ --Startup=auto^
+ --Install="C:\DeamonApache\amd64\prunsrv.exe"^
+ --Jvm="C:\Program Files\Java\jre1.8.0_171\bin\server\jvm.dll" ^
+ --Classpath "C:\DeamonApache\App\RpaManagementApp.jar"^
+ --Environment="PATH=C:\Program Files\Java\jre1.8.0_171\bin"^
+ --JavaHome="C:\Program Files\Java\jre1.8.0_171"^
+ --StartPath=C:\Users\congpt\Desktop\rpa_management\rpa_management\RPAManagement\^
+ --JvmOptions="-XX:+HeapDumpOnOutOfMemoryError"^
+ --StartMode=jvm^
+ --StartClass=Logger^
+ --StdOutput= C:\Users\congpt\Desktop\rpa_management\rpa_management\RPAManagement\log\stdout.log^
+ --StdError=C:\Users\congpt\Desktop\rpa_management\rpa_management\RPAManagement\log\sterr.log

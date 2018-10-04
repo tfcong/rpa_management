@@ -1,0 +1,15 @@
+"C:\DeamonApache\amd64\prunsrv.exe" //IS//TestApp^
+ --DisplayName "Test Service"^
+ --Description "Test App service."^
+ --Startup=auto^
+ --Install="C:\DeamonApache\amd64\prunsrv.exe"^
+ --Jvm="C:\Program Files\Java\jre1.8.0_171\bin\server\jvm.dll"^
+ --Classpath "C:\DeamonApache\App\TestService\bin\TestApp.jar"^
+ --Environment="PATH=C:\Program Files\Java\jre1.8.0_171\bin"^
+ --JavaHome="C:\Program Files\Java\jre1.8.0_171"^
+ --StartPath=C:\DeamonApache\App\TestService\^
+ --JvmOptions="-XX:+HeapDumpOnOutOfMemoryError"^
+ --StartMode=jvm^
+ --StartClass=Test^
+ --StdOutput=C:\DeamonApache\App\TestService\log\stdout.log^
+ --StdError=C:\DeamonApache\App\TestService\log\sterr.log

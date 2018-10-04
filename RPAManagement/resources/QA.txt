@@ -1,0 +1,4 @@
+﻿1. Mình cần viết  ra 2 cái service 1 cái phía server và 1 cái phía agent ạ ?
+2. Các máy server và client trong một mạng lan phải không ạ ?  
+3. Scenario DB đã có chưa hay mình phải thiết kế ra và sử dụng hệ quản trị cơ sở dữ liệu nào ? 
+4. Anh có thể cho e link download phần mềm RPA được không ? 
